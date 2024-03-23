@@ -9,7 +9,34 @@
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
-    Hello
+   <nav id = "desktop-nav">
+    <div class="logo">Ninad Purkar</div>
+    <div>
+        <ul class="nav-links">
+            <li></li> <a href="#about">About</a> </li>
+            <li></li> <a href="#experience">Experience</a> </li>
+            <li></li> <a href="#project">Project</a> </li>
+            <li></li> <a href="#contact">Contact</a> </li>
+        </ul>
+    </div>
+   </nav> 
+
+   <nav id="kachori">
+    <div class="logo">Ninad Purkar</div>
+    <div class="kachori-menu">
+        <div class="kachori-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li></li> <a href="#about" onclick="toggleMenu()">About</a> </li>
+            <li></li> <a href="#experience" onclick="toggleMenu()">Experience</a> </li>
+            <li></li> <a href="#project" onclick="toggleMenu()">Project</a> </li>
+            <li></li> <a href="#contact" onclick="toggleMenu()">Contact</a> </li>
+        </div>
+    </div>
+   </nav>
     <script src="script.js"></script>
 </body>
 </html>
